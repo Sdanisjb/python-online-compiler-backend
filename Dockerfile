@@ -8,4 +8,4 @@ RUN pip install -U pip
 RUN pip install -r /tmp/requirements.txt
 
 # copy over our app code
-COPY ./back-end /app
+COPY ./app /app
